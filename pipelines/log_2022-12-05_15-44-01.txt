@@ -1,0 +1,1494 @@
+System OS: Windows 10, Architecture: AMD64
+Java Info: 11.0.9.1, OpenJDK 64-Bit Server VM, AdoptOpenJDK
+
+
+Version info:
+FragPipe version 18.0
+MSFragger version 3.5
+Philosopher version 4.4.0
+
+
+LCMS files:
+  Experiment/Group: GuineaPig_lung_2
+  - C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw	DDA
+  Experiment/Group: GuineaPig_lung_5
+  - C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw	DDA
+  Experiment/Group: GuineaPig_lung_6
+  - C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw	DDA
+
+
+45 commands to execute:
+CheckCentroid
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar" com.dmtavt.fragpipe.util.CheckCentroid C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw 7
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\5b44a269-005b-4e46-ae06-31a03d2a8186
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\49634a80-4d32-4e05-a9c1-79ba5e7733b1
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\8d0a81e9-6685-4eaa-bcff-96878daaef75
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\94f299af-8431-4afe-b121-2475c008847e
+MSFragger [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -jar -Dfile.encoding=UTF-8 -Xmx43G C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\MSFragger-3.5.jar C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\fragger.params C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248.pepXML
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248.pin
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248.pepXML
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248.pin
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248.pepXML
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248.pin
+MSBooster [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\msbooster-1.1.4.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\smile-core-2.6.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\smile-math-2.6.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar" Features.MainClass --paramsList C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\msbooster_params.txt
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_46_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_46_22-248_percolator_decoy_psms.tsv Tombline_46_22-248_edited.pin
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_44_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_44_22-248_percolator_decoy_psms.tsv Tombline_44_22-248_edited.pin
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_45_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_45_22-248_percolator_decoy_psms.tsv Tombline_45_22-248_edited.pin
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_46_22-248.pin Tombline_46_22-248 Tombline_46_22-248_percolator_target_psms.tsv Tombline_46_22-248_percolator_decoy_psms.tsv interact-Tombline_46_22-248 DDA 0.5
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248_percolator_decoy_psms.tsv
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_44_22-248.pin Tombline_44_22-248 Tombline_44_22-248_percolator_target_psms.tsv Tombline_44_22-248_percolator_decoy_psms.tsv interact-Tombline_44_22-248 DDA 0.5
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248_percolator_decoy_psms.tsv
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_45_22-248.pin Tombline_45_22-248 Tombline_45_22-248_percolator_target_psms.tsv Tombline_45_22-248_percolator_decoy_psms.tsv interact-Tombline_45_22-248 DDA 0.5
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248_percolator_decoy_psms.tsv
+ProteinProphet [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe proteinprophet --maxppmdiff 2000000 --output combined C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\filelist_proteinprophet.txt
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razor
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razorbin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razorbin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+IonQuant [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -Dlibs.bruker.dir="C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\ext\bruker" -Dlibs.thermo.dir="C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\ext\thermo" -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\jfreechart-1.5.3.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\IonQuant-1.8.0.jar" ionquant.IonQuant --threads 7 --ionmobility 0 --minexps 1 --mbr 1 --maxlfq 1 --requantify 1 --mztol 10 --imtol 0.05 --rttol 0.4 --mbrmincorr 0 --mbrrttol 1 --mbrimtol 0.05 --mbrtoprun 100000 --ionfdr 0.01 --proteinfdr 1 --peptidefdr 1 --normalization 1 --minisotopes 2 --minscans 3 --writeindex 0 --tp 0 --minfreq 0 --minions 2 --locprob 0.75 --uniqueness 0 --multidir . --filelist C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\filelist_ionquant.txt
+~~~~~~~~~~~~~~~~~~~~~~
+
+Execution order:
+
+    Cmd: [START], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [CheckCentroid], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [MSFragger], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [MSBooster], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [Percolator], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [ProteinProphet], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [PhilosopherDbAnnotate], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [PhilosopherFilter], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [PhilosopherReport], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+    Cmd: [IonQuant], Work dir: [C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~Sample of C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas~~~~~~~
+>Biognosys|iRT-Kit_WR_fusion
+>rev_tr|A0A286XDD9|A0A286XDD9_CAVPO Uncharacterized protein OS=Cavia porcellus OX=10141 PE=4 SV=1
+>rev_tr|A0A286XL04|A0A286XL04_CAVPO Myosin heavy chain 10 OS=Cavia porcellus OX=10141 GN=MYH10 PE=3 SV=1
+>rev_tr|A0A286XTQ0|A0A286XTQ0_CAVPO Olfactory receptor OS=Cavia porcellus OX=10141 GN=LOC100729150 PE=3 SV=1
+>rev_tr|A0A286Y1D2|A0A286Y1D2_CAVPO Beta-N-acetylhexosaminidase OS=Cavia porcellus OX=10141 GN=HEXD PE=3 SV=1
+>rev_tr|H0UW99|H0UW99_CAVPO Centrosomal protein 89 OS=Cavia porcellus OX=10141 GN=CEP89 PE=4 SV=2
+>rev_tr|H0V5F4|H0V5F4_CAVPO Chondrolectin OS=Cavia porcellus OX=10141 GN=CHODL PE=4 SV=2
+>rev_tr|H0VEL9|H0VEL9_CAVPO Alpha-methylacyl-CoA racemase OS=Cavia porcellus OX=10141 GN=AMACR PE=3 SV=2
+>rev_tr|H0VNP7|H0VNP7_CAVPO Triacylglycerol lipase OS=Cavia porcellus OX=10141 GN=PNLIP PE=3 SV=2
+>rev_tr|H0W006|H0W006_CAVPO Lactoperoxidase OS=Cavia porcellus OX=10141 GN=LPO PE=4 SV=1
+>rev_tr|Q6EX43|Q6EX43_CAVPO 5-hydroxytryptamine receptor 5A OS=Cavia porcellus OX=10141 GN=htr5A PE=2 SV=1
+>tr|A0A286XDI0|A0A286XDI0_CAVPO Uncharacterized protein OS=Cavia porcellus OX=10141 PE=4 SV=1
+>tr|A0A286XL47|A0A286XL47_CAVPO Phosducin like 3 OS=Cavia porcellus OX=10141 GN=PDCL3 PE=3 SV=1
+>tr|A0A286XTU3|A0A286XTU3_CAVPO Ig-like domain-containing protein OS=Cavia porcellus OX=10141 PE=4 SV=1
+>tr|A0A286Y1H2|A0A286Y1H2_CAVPO Galectin OS=Cavia porcellus OX=10141 GN=LGALSL PE=4 SV=1
+>tr|H0UWF0|H0UWF0_CAVPO Solute carrier family 22 member 2 OS=Cavia porcellus OX=10141 GN=SLC22A2 PE=3 SV=2
+>tr|H0V5K2|H0V5K2_CAVPO Troponin T, fast skeletal muscle OS=Cavia porcellus OX=10141 GN=TNNT3 PE=3 SV=2
+>tr|H0VES4|H0VES4_CAVPO Solute carrier family 3 member 1 OS=Cavia porcellus OX=10141 GN=SLC3A1 PE=4 SV=2
+>tr|H0VNU8|H0VNU8_CAVPO Chromosome 2 open reading frame 73 OS=Cavia porcellus OX=10141 GN=C2orf73 PE=4 SV=2
+>tr|H0W079|H0W079_CAVPO Coatomer subunit zeta OS=Cavia porcellus OX=10141 GN=COPZ2 PE=3 SV=2
+>tr|Q9TEG5|Q9TEG5_CAVPO Cytochrome c oxidase subunit 3 (Fragment) OS=Cavia porcellus OX=10141 GN=COIII PE=3 SV=1
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~ fragpipe.config ~~~~~~~~~
+# FragPipe v18.0ui state cache
+
+
+# Please edit the following path to point to the correct location.
+# In Windows, please replace single '\' with '\\'
+database.db-path=C\:\\Users\\gregt\\Desktop\\Greg\\reference-material\\GuineaPig\\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas
+
+Table.editor=SKRYT
+crystalc.run-crystalc=false
+database.decoy-tag=rev_
+diann.fragpipe.cmd-opts=
+diann.library=
+diann.q-value=0.01
+diann.quantification-strategy=3
+diann.run-dia-nn=false
+diann.run-specific-protein-q-value=0.01
+diann.unrelated-runs=false
+diann.use-predicted-spectra=false
+diaumpire.AdjustFragIntensity=true
+diaumpire.BoostComplementaryIon=false
+diaumpire.CorrThreshold=0
+diaumpire.DeltaApex=0.2
+diaumpire.ExportPrecursorPeak=false
+diaumpire.Q1=true
+diaumpire.Q2=true
+diaumpire.Q3=true
+diaumpire.RFmax=500
+diaumpire.RPmax=25
+diaumpire.RTOverlap=0.3
+diaumpire.SE.EstimateBG=false
+diaumpire.SE.IsoPattern=0.3
+diaumpire.SE.MS1PPM=10
+diaumpire.SE.MS2PPM=20
+diaumpire.SE.MS2SN=1.1
+diaumpire.SE.MassDefectFilter=true
+diaumpire.SE.MassDefectOffset=0.1
+diaumpire.SE.NoMissedScan=1
+diaumpire.SE.SN=1.1
+diaumpire.run-diaumpire=false
+fragpipe-config.bin-ionquant=C\:\\Users\\gregt\\Desktop\\VarSoftware\\Fragger-related\\Fragpipev18\\FragPipe-jre-18.0\\fragpipe\\tools\\IonQuant-1.8.0.jar
+fragpipe-config.bin-msfragger=C\:\\Users\\gregt\\Desktop\\VarSoftware\\Fragger-related\\Fragpipev18\\FragPipe-jre-18.0\\fragpipe\\tools\\MSFragger-3.5\\MSFragger-3.5.jar
+fragpipe-config.bin-philosopher=C\:\\Users\\gregt\\Desktop\\VarSoftware\\Fragger-related\\Fragpipev18\\FragPipe-jre-18.0\\fragpipe\\tools\\philosopher_v4.4.0_windows_amd64\\philosopher.exe
+fragpipe-config.bin-python=C\:\\ProgramData\\Anaconda3\\python.exe
+freequant.mz-tol=10
+freequant.rt-tol=0.4
+freequant.run-freequant=false
+ionquant.excludemods=
+ionquant.heavy=
+ionquant.imtol=0.05
+ionquant.ionfdr=0.01
+ionquant.light=
+ionquant.locprob=0.75
+ionquant.maxlfq=1
+ionquant.mbr=1
+ionquant.mbrimtol=0.05
+ionquant.mbrmincorr=0
+ionquant.mbrrttol=1
+ionquant.mbrtoprun=100000
+ionquant.medium=
+ionquant.minexps=1
+ionquant.minfreq=0
+ionquant.minions=2
+ionquant.minisotopes=2
+ionquant.minscans=3
+ionquant.mztol=10
+ionquant.normalization=1
+ionquant.peptidefdr=1
+ionquant.proteinfdr=1
+ionquant.proteinquant=2
+ionquant.requantify=1
+ionquant.rttol=0.4
+ionquant.run-ionquant=true
+ionquant.tp=0
+ionquant.uniqueness=0
+ionquant.use-labeling=false
+ionquant.use-lfq=true
+ionquant.writeindex=0
+msbooster.predict-rt=true
+msbooster.predict-spectra=true
+msbooster.run-msbooster=true
+msbooster.use-correlated-features=false
+msfragger.Y_type_masses=
+msfragger.activation_types=all
+msfragger.add_topN_complementary=0
+msfragger.allowed_missed_cleavage_1=2
+msfragger.allowed_missed_cleavage_2=2
+msfragger.calibrate_mass=2
+msfragger.check_spectral_files=true
+msfragger.clip_nTerm_M=true
+msfragger.data_type=0
+msfragger.deisotope=1
+msfragger.delta_mass_exclude_ranges=(-1.5,3.5)
+msfragger.deneutralloss=1
+msfragger.diagnostic_fragments=
+msfragger.diagnostic_intensity_filter=0
+msfragger.digest_max_length=50
+msfragger.digest_min_length=7
+msfragger.fragment_ion_series=b,y
+msfragger.fragment_mass_tolerance=20
+msfragger.fragment_mass_units=1
+msfragger.intensity_transform=0
+msfragger.ion_series_definitions=
+msfragger.isotope_error=0/1/2
+msfragger.labile_search_mode=off
+msfragger.localize_delta_mass=false
+msfragger.mass_diff_to_variable_mod=0
+msfragger.mass_offsets=0
+msfragger.max_fragment_charge=2
+msfragger.max_variable_mods_combinations=5000
+msfragger.max_variable_mods_per_peptide=3
+msfragger.min_fragments_modelling=2
+msfragger.min_matched_fragments=4
+msfragger.min_sequence_matches=2
+msfragger.minimum_peaks=15
+msfragger.minimum_ratio=0.01
+msfragger.misc.fragger.clear-mz-hi=0
+msfragger.misc.fragger.clear-mz-lo=0
+msfragger.misc.fragger.digest-mass-hi=5000
+msfragger.misc.fragger.digest-mass-lo=500
+msfragger.misc.fragger.enzyme-dropdown-1=stricttrypsin
+msfragger.misc.fragger.enzyme-dropdown-2=null
+msfragger.misc.fragger.precursor-charge-hi=4
+msfragger.misc.fragger.precursor-charge-lo=1
+msfragger.misc.fragger.remove-precursor-range-hi=1.5
+msfragger.misc.fragger.remove-precursor-range-lo=-1.5
+msfragger.misc.slice-db=1
+msfragger.num_enzyme_termini=2
+msfragger.output_format=pepXML_pin
+msfragger.output_max_expect=50
+msfragger.output_report_topN=1
+msfragger.override_charge=false
+msfragger.precursor_mass_lower=-20
+msfragger.precursor_mass_mode=selected
+msfragger.precursor_mass_units=1
+msfragger.precursor_mass_upper=20
+msfragger.precursor_true_tolerance=20
+msfragger.precursor_true_units=1
+msfragger.remainder_fragment_masses=
+msfragger.remove_precursor_peak=1
+msfragger.report_alternative_proteins=true
+msfragger.restrict_deltamass_to=all
+msfragger.run-msfragger=true
+msfragger.search_enzyme_cut_1=KR
+msfragger.search_enzyme_cut_2=
+msfragger.search_enzyme_name=stricttrypsin
+msfragger.search_enzyme_name_1=stricttrypsin
+msfragger.search_enzyme_name_2=null
+msfragger.search_enzyme_nocut_1=
+msfragger.search_enzyme_nocut_2=
+msfragger.search_enzyme_sense_1=C
+msfragger.search_enzyme_sense_2=C
+msfragger.table.fix-mods=0.000000,C-Term Peptide,true,-1; 0.000000,N-Term Peptide,true,-1; 0.000000,C-Term Protein,true,-1; 0.000000,N-Term Protein,true,-1; 0.000000,G (glycine),true,-1; 0.000000,A (alanine),true,-1; 0.000000,S (serine),true,-1; 0.000000,P (proline),true,-1; 0.000000,V (valine),true,-1; 0.000000,T (threonine),true,-1; 57.021460,C (cysteine),true,-1; 0.000000,L (leucine),true,-1; 0.000000,I (isoleucine),true,-1; 0.000000,N (asparagine),true,-1; 0.000000,D (aspartic acid),true,-1; 0.000000,Q (glutamine),true,-1; 0.000000,K (lysine),true,-1; 0.000000,E (glutamic acid),true,-1; 0.000000,M (methionine),true,-1; 0.000000,H (histidine),true,-1; 0.000000,F (phenylalanine),true,-1; 0.000000,R (arginine),true,-1; 0.000000,Y (tyrosine),true,-1; 0.000000,W (tryptophan),true,-1; 0.000000,B ,true,-1; 0.000000,J,true,-1; 0.000000,O,true,-1; 0.000000,U,true,-1; 0.000000,X,true,-1; 0.000000,Z,true,-1
+msfragger.table.var-mods=15.994900,M,true,3; 42.010600,[^,true,1; 79.966330,STY,false,3; -17.026500,nQnC,false,1; -18.010600,nE,false,1; 4.025107,K,false,2; 6.020129,R,false,2; 8.014199,K,false,2; 10.008269,R,false,2; 0.000000,site_10,false,1; 0.000000,site_11,false,1; 0.000000,site_12,false,1; 0.000000,site_13,false,1; 0.000000,site_14,false,1; 0.000000,site_15,false,1; 0.000000,site_16,false,1
+msfragger.track_zero_topN=0
+msfragger.use_all_mods_in_first_search=false
+msfragger.use_topN_peaks=150
+msfragger.write_calibrated_mgf=false
+msfragger.zero_bin_accept_expect=0
+msfragger.zero_bin_mult_expect=1
+peptide-prophet.cmd-opts=--decoyprobs --ppm --accmass --nonparam --expectscore
+peptide-prophet.combine-pepxml=false
+peptide-prophet.run-peptide-prophet=false
+percolator.cmd-opts=--only-psms --no-terminate --post-processing-tdc
+percolator.keep-tsv-files=false
+percolator.min-prob=0.5
+percolator.run-percolator=true
+phi-report.dont-use-prot-proph-file=false
+phi-report.filter=--sequential --prot 0.01
+phi-report.pep-level-summary=true
+phi-report.philosoher-msstats=true
+phi-report.print-decoys=false
+phi-report.prot-level-summary=true
+phi-report.run-report=true
+protein-prophet.cmd-opts=--maxppmdiff 2000000
+protein-prophet.run-protein-prophet=true
+ptmprophet.cmdline=--keepold --static --em 1 --nions b --mods STY\:79.966331,M\:15.9949 --minprob 0.5
+ptmprophet.run-ptmprophet=false
+ptmshepherd.adv_params=false
+ptmshepherd.annotation-common=false
+ptmshepherd.annotation-custom=false
+ptmshepherd.annotation-glyco=false
+ptmshepherd.annotation-unimod=true
+ptmshepherd.annotation_file=
+ptmshepherd.annotation_tol=0.01
+ptmshepherd.assign_glycans=true
+ptmshepherd.cap_y_ions=
+ptmshepherd.decoy_type=1
+ptmshepherd.diag_ions=
+ptmshepherd.diagextract_mode=false
+ptmshepherd.diagmine_diagMinFoldChange=3.0
+ptmshepherd.diagmine_diagMinSpecDiff=00.2
+ptmshepherd.diagmine_fragMinFoldChange=3.0
+ptmshepherd.diagmine_fragMinPropensity=00.1
+ptmshepherd.diagmine_fragMinSpecDiff=00.1
+ptmshepherd.diagmine_minIons=25
+ptmshepherd.diagmine_minIonsPerSpec=2
+ptmshepherd.diagmine_mode=false
+ptmshepherd.diagmine_pepMinFoldChange=3.0
+ptmshepherd.diagmine_pepMinSpecDiff=00.2
+ptmshepherd.glyco_adducts=
+ptmshepherd.glyco_fdr=1.00
+ptmshepherd.glyco_isotope_max=3
+ptmshepherd.glyco_isotope_min=-1
+ptmshepherd.glyco_mode=false
+ptmshepherd.glyco_ppm_tol=50
+ptmshepherd.glycodatabase=
+ptmshepherd.histo_smoothbins=2
+ptmshepherd.iontype_a=false
+ptmshepherd.iontype_b=true
+ptmshepherd.iontype_c=false
+ptmshepherd.iontype_x=false
+ptmshepherd.iontype_y=true
+ptmshepherd.iontype_z=false
+ptmshepherd.localization_allowed_res=
+ptmshepherd.localization_background=4
+ptmshepherd.max_adducts=0
+ptmshepherd.n_glyco=true
+ptmshepherd.normalization-psms=true
+ptmshepherd.normalization-scans=false
+ptmshepherd.output_extended=false
+ptmshepherd.peakpicking_mass_units=0
+ptmshepherd.peakpicking_minPsm=10
+ptmshepherd.peakpicking_promRatio=0.3
+ptmshepherd.peakpicking_width=0.002
+ptmshepherd.precursor_mass_units=0
+ptmshepherd.precursor_tol=0.01
+ptmshepherd.print_decoys=false
+ptmshepherd.prob_dhexOx=
+ptmshepherd.prob_dhexY=
+ptmshepherd.prob_neuacOx=
+ptmshepherd.prob_neugcOx=
+ptmshepherd.prob_phosphoOx=
+ptmshepherd.prob_regY=
+ptmshepherd.prob_sulfoOx=
+ptmshepherd.remainder_masses=
+ptmshepherd.remove_glycan_delta_mass=true
+ptmshepherd.run-shepherd=false
+ptmshepherd.spectra_maxfragcharge=2
+ptmshepherd.spectra_ppmtol=20
+ptmshepherd.varmod_masses=
+quantitation.run-label-free-quant=true
+run-psm-validation=true
+run-validation-tab=true
+speclibgen.easypqp.extras.max_delta_ppm=15
+speclibgen.easypqp.extras.max_delta_unimod=0.02
+speclibgen.easypqp.extras.rt_lowess_fraction=0
+speclibgen.easypqp.im-cal=Automatic selection of a run as reference IM
+speclibgen.easypqp.rt-cal=noiRT
+speclibgen.easypqp.select-file.text=
+speclibgen.easypqp.select-im-file.text=
+speclibgen.keep-intermediate-files=false
+speclibgen.run-speclibgen=false
+speclibgen.use-easypqp=true
+speclibgen.use-spectrast=false
+tmtintegrator.add_Ref=-1
+tmtintegrator.aggregation_method=0
+tmtintegrator.allow_overlabel=true
+tmtintegrator.allow_unlabeled=true
+tmtintegrator.best_psm=true
+tmtintegrator.channel_num=6
+tmtintegrator.dont-run-fq-lq=false
+tmtintegrator.glyco_qval=-1
+tmtintegrator.groupby=0
+tmtintegrator.max_pep_prob_thres=0
+tmtintegrator.min_ntt=0
+tmtintegrator.min_pep_prob=0.9
+tmtintegrator.min_percent=0.05
+tmtintegrator.min_purity=0.5
+tmtintegrator.min_site_prob=-1
+tmtintegrator.mod_tag=none
+tmtintegrator.ms1_int=true
+tmtintegrator.outlier_removal=true
+tmtintegrator.print_RefInt=false
+tmtintegrator.prot_exclude=none
+tmtintegrator.prot_norm=0
+tmtintegrator.psm_norm=false
+tmtintegrator.quant_level=2
+tmtintegrator.ref_tag=Bridge
+tmtintegrator.run-tmtintegrator=false
+tmtintegrator.tolerance=20
+tmtintegrator.top3_pep=true
+tmtintegrator.unique_gene=0
+tmtintegrator.unique_pep=false
+tmtintegrator.use_glycan_composition=false
+workdir=C\:\\Users\\gregt\\Desktop\\Greg\\Gorbunova_UH2-related\\UH2-3_lung-data\\GuineaPig_lung_MSFragger
+workflow.input.data-type.im-ms=false
+workflow.input.data-type.regular-ms=true
+workflow.ram=0
+workflow.threads=7
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CheckCentroid
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar" com.dmtavt.fragpipe.util.CheckCentroid C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw 7
+Done in 0 ms.
+Process 'CheckCentroid' finished, exit code: 0
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+Process 'WorkspaceCleanInit' finished, exit code: 0
+INFO[15:32:25] Executing Workspace  v4.4.0                  
+INFO[15:32:25] Removing workspace                           
+WARN[15:32:25] Cannot read file. open .meta\meta.bin: The system cannot find the path specified. 
+INFO[15:32:25] Done                                         
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\5b44a269-005b-4e46-ae06-31a03d2a8186
+INFO[15:32:25] Executing Workspace  v4.4.0                  
+INFO[15:32:25] Creating workspace                           
+INFO[15:32:25] Done                                         
+Process 'WorkspaceCleanInit' finished, exit code: 0
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:32:25] Executing Workspace  v4.4.0                  
+INFO[15:32:25] Removing workspace                           
+WARN[15:32:25] Cannot read file. open .meta\meta.bin: The system cannot find the path specified. 
+INFO[15:32:25] Done                                         
+Process 'WorkspaceCleanInit' finished, exit code: 0
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\49634a80-4d32-4e05-a9c1-79ba5e7733b1
+INFO[15:32:25] Executing Workspace  v4.4.0                  
+INFO[15:32:25] Creating workspace                           
+INFO[15:32:25] Done                                         
+Process 'WorkspaceCleanInit' finished, exit code: 0
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+Process 'WorkspaceCleanInit' finished, exit code: 0
+INFO[15:32:25] Executing Workspace  v4.4.0                  
+INFO[15:32:25] Removing workspace                           
+WARN[15:32:25] Cannot read file. open .meta\meta.bin: The system cannot find the path specified. 
+INFO[15:32:25] Done                                         
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\8d0a81e9-6685-4eaa-bcff-96878daaef75
+Process 'WorkspaceCleanInit' finished, exit code: 0
+INFO[15:32:26] Executing Workspace  v4.4.0                  
+INFO[15:32:26] Creating workspace                           
+INFO[15:32:26] Done                                         
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:32:26] Executing Workspace  v4.4.0                  
+INFO[15:32:26] Removing workspace                           
+WARN[15:32:26] Cannot read file. open .meta\meta.bin: The system cannot find the path specified. 
+INFO[15:32:26] Done                                         
+Process 'WorkspaceCleanInit' finished, exit code: 0
+WorkspaceCleanInit [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\gregt\AppData\Local\Temp\94f299af-8431-4afe-b121-2475c008847e
+Process 'WorkspaceCleanInit' finished, exit code: 0
+INFO[15:32:26] Executing Workspace  v4.4.0                  
+INFO[15:32:26] Creating workspace                           
+INFO[15:32:26] Done                                         
+MSFragger [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -jar -Dfile.encoding=UTF-8 -Xmx43G C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\MSFragger-3.5.jar C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\fragger.params C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw
+MSFragger version MSFragger-3.5
+Batmass-IO version 1.25.5
+timsdata library version timsdata-2-8-7-1
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+System OS: Windows 10, Architecture: AMD64
+Java Info: 11.0.9.1, OpenJDK 64-Bit Server VM, AdoptOpenJDK
+JVM started with 43 GB memory
+Checking database...
+Checking spectral files...
+C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw: Scans = 154411
+C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw: Scans = 157486
+C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw: Scans = 163100
+***********************************FIRST SEARCH************************************
+Parameters:
+num_threads = 7
+database_name = C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 2
+use_all_mods_in_first_search = false
+write_calibrated_mgf = 0
+isotope_error = 0/1
+mass_offsets = 0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = false
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = stricttrypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = 
+allowed_missed_cleavage_1 = 2
+num_enzyme_termini = 2
+clip_nTerm_M = true
+allow_multiple_variable_mods_on_residue = false
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = false
+override_charge = false
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = true
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 150
+minIonsScoring = 2
+min_matched_fragments = 4
+minimum_ratio = 0.01
+intensity_transform = 0
+activation_types = all
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = true
+variable_mod_01 = 15.994900 M 3
+variable_mod_02 = 42.010600 [^ 1
+add_A_alanine = 0.000000
+add_B_user_amino_acid = 0.000000
+add_C_cysteine = 57.021460
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.000000
+add_E_glutamic_acid = 0.000000
+add_F_phenylalanine = 0.000000
+add_G_glycine = 0.000000
+add_H_histidine = 0.000000
+add_I_isoleucine = 0.000000
+add_J_user_amino_acid = 0.000000
+add_K_lysine = 0.000000
+add_L_leucine = 0.000000
+add_M_methionine = 0.000000
+add_N_asparagine = 0.000000
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.000000  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.000000
+add_Q_glutamine = 0.000000
+add_R_arginine = 0.000000
+add_S_serine = 0.000000
+add_T_threonine = 0.000000
+add_U_user_amino_acid = 0.000000  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.000000
+add_W_tryptophan = 0.000000
+add_X_user_amino_acid = 0.000000
+add_Y_tyrosine = 0.000000
+add_Z_user_amino_acid = 0.000000
+Selected fragment index width 0.10 Da.
+291514142 fragments to be searched in 1 slices (4.34 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 4.19 s
+	001. Tombline_44_22-248.raw 26.2 s | deisotoping 0.7 s
+		[progress: 144807/144807 (100%) - 23975 spectra/s] 6.0s | postprocessing 0.5 s
+	002. Tombline_45_22-248.raw 22.3 s | deisotoping 0.2 s
+		[progress: 145635/145635 (100%) - 35942 spectra/s] 4.1s | postprocessing 0.2 s
+	003. Tombline_46_22-248.raw 20.9 s | deisotoping 0.3 s
+		[progress: 150092/150092 (100%) - 32622 spectra/s] 4.6s | postprocessing 0.2 s
+***************************FIRST SEARCH DONE IN 1.797 MIN**************************
+
+*********************MASS CALIBRATION AND PARAMETER OPTIMIZATION*******************
+-----|---------------|---------------|---------------|---------------
+     |  MS1   (Old)  |  MS1   (New)  |  MS2   (Old)  |  MS2   (New)  
+-----|---------------|---------------|---------------|---------------
+ Run |  Median  MAD  |  Median  MAD  |  Median  MAD  |  Median  MAD  
+ 001 |  -0.35   0.94 |  -0.05   0.68 |   0.25   3.27 |   0.07   3.00  
+ 002 |   0.00   0.85 |  -0.03   0.68 |  -0.25   3.22 |   0.02   2.95  
+ 003 |   0.72   0.94 |  -0.03   0.62 |  -0.37   3.15 |   0.07   2.90  
+-----|---------------|---------------|---------------|---------------
+Finding the optimal parameters:
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+  MS2  |    5  |    7  |   10  |   15  |   20  |   25  |   30  |   50  
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+ Count | skip  |  53670|  55667|  55977|  55528| skip rest
+-------|-------|-------|-------|-------|-------|-------|-------|-------
+-------|-------|-------|-------|-------|-------|-------
+ Peaks | 300_0 | 200_0 | 175_0 | 150_1 | 125_1 | 100_1 
+-------|-------|-------|-------|-------|-------|-------
+ Count |  55966|  55996|  55943| skip rest
+-------|-------|-------|-------|-------|-------|-------
+-------|-------
+ Int.  |    1  
+-------|-------
+ Count |  56889
+-------|-------
+-------|-------
+ Rm P. |    0  
+-------|-------
+ Count |  56993
+-------|-------
+New fragment_mass_tolerance = 15 PPM
+New use_topN_peaks = 200
+New minimum_ratio = 0.000000
+New intensity_transform = 1
+New remove_precursor_peak = 0
+************MASS CALIBRATION AND PARAMETER OPTIMIZATION DONE IN 2.316 MIN*********
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 7
+database_name = C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 15.0
+fragment_mass_units = 1
+calibrate_mass = 2
+use_all_mods_in_first_search = false
+write_calibrated_mgf = 0
+isotope_error = 0/1/2
+mass_offsets = 0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = false
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = stricttrypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = 
+allowed_missed_cleavage_1 = 2
+num_enzyme_termini = 2
+clip_nTerm_M = true
+allow_multiple_variable_mods_on_residue = false
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = true
+override_charge = false
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = true
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 200
+minIonsScoring = 2
+min_matched_fragments = 4
+minimum_ratio = 0.0
+intensity_transform = 1
+activation_types = all
+remove_precursor_peak = 0
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = true
+variable_mod_01 = 15.994900 M 3
+variable_mod_02 = 42.010600 [^ 1
+add_A_alanine = 0.000000
+add_B_user_amino_acid = 0.000000
+add_C_cysteine = 57.021460
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.000000
+add_E_glutamic_acid = 0.000000
+add_F_phenylalanine = 0.000000
+add_G_glycine = 0.000000
+add_H_histidine = 0.000000
+add_I_isoleucine = 0.000000
+add_J_user_amino_acid = 0.000000
+add_K_lysine = 0.000000
+add_L_leucine = 0.000000
+add_M_methionine = 0.000000
+add_N_asparagine = 0.000000
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.000000  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.000000
+add_Q_glutamine = 0.000000
+add_R_arginine = 0.000000
+add_S_serine = 0.000000
+add_T_threonine = 0.000000
+add_U_user_amino_acid = 0.000000  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.000000
+add_W_tryptophan = 0.000000
+add_X_user_amino_acid = 0.000000
+add_Y_tyrosine = 0.000000
+add_Z_user_amino_acid = 0.000000
+Selected fragment index width 0.08 Da.
+291514142 fragments to be searched in 1 slices (4.34 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 2.63 s
+	001. Tombline_44_22-248.mzBIN_calibrated 0.9 s
+		[progress: 140700/140700 (100%) - 25107 spectra/s] 5.6s | ramaping alternative proteins and postprocessing 11.9 s
+	002. Tombline_45_22-248.mzBIN_calibrated 0.8 s
+		[progress: 140381/140381 (100%) - 25786 spectra/s] 5.4s | ramaping alternative proteins and postprocessing 10.4 s
+	003. Tombline_46_22-248.mzBIN_calibrated 0.8 s
+		[progress: 144426/144426 (100%) - 25712 spectra/s] 5.6s | ramaping alternative proteins and postprocessing 9.9 s
+***************************MAIN SEARCH DONE IN 0.934 MIN***************************
+
+*******************************TOTAL TIME 5.047 MIN********************************
+Process 'MSFragger' finished, exit code: 0
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248.pepXML
+Process 'MSFragger move pepxml' finished, exit code: 0
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248.pin
+Process 'MSFragger move pin' finished, exit code: 0
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248.pepXML
+Process 'MSFragger move pepxml' finished, exit code: 0
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248.pin
+Process 'MSFragger move pin' finished, exit code: 0
+MSFragger move pepxml
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.pepXML C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248.pepXML
+Process 'MSFragger move pepxml' finished, exit code: 0
+MSFragger move pin
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar;/C:/Users/gregt/Desktop/VarSoftware/Fragger-related/Fragpipev18/FragPipe-jre-18.0/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.pin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248.pin
+Process 'MSFragger move pin' finished, exit code: 0
+MSBooster [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\msbooster-1.1.4.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\smile-core-2.6.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\smile-math-2.6.0.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar" Features.MainClass --paramsList C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\msbooster_params.txt
+MSBooster v1.1.4
+Using 7 threads
+Generating input file for DIA-NN
+152302 unique peptides from 309992 PSMs
+Writing DIA-NN input file
+Diann input file generation took 929 milliseconds
+Input file at  C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.tsv
+152302 unique peptides from 309992 PSMs
+createFull input file generation took 704 milliseconds
+Input file at  C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT_full.tsv
+Generating DIA-NN predictions
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\diann\1.8.1\win\DiaNN.exe --lib C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.tsv --predict --threads 7 --strip-unknown-mods
+DIA-NN 1.8.1 (Data-Independent Acquisition by Neural Networks)
+Compiled on Apr 14 2022 15:31:19
+Current date and time: Mon Dec  5 15:37:32 2022
+CPU: GenuineIntel 11th Gen Intel(R) Core(TM) i9-11980HK @ 2.60GHz
+SIMD instructions: AVX AVX2 AVX512CD AVX512F FMA SSE4.1 SSE4.2 
+Logical CPU cores: 16
+Predicted spectra will be saved in a binary format
+Thread number set to 7
+DIA-NN will use deep learning to predict spectra/RTs/IMs even for peptides carrying modifications which are not recognised by the deep learning predictor. In this scenario, if also generating a spectral library from the DIA data or using the MBR mode, it might or might not be better (depends on the data) to also use the --out-measured-rt option - it's recommended to test it with and without this option
+
+0 files will be processed
+[0:00] Loading spectral library C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.tsv
+[0:00] Finding proteotypic peptides (assuming that the list of UniProt ids provided for each peptide is complete)
+[0:00] Spectral library loaded: 0 protein isoforms, 0 protein groups and 152302 precursors in 139284 elution groups.
+[0:00] Encoding peptides for spectra and RTs prediction
+[0:00] Predicting spectra and IMs
+[0:45] Predicting RTs
+[0:57] Decoding predicted spectra and IMs
+[0:57] Decoding RTs
+[0:57] Saving the list of predictions to C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.predicted.bin
+Finished
+Done generating DIA-NN predictions
+Model running took 58148 milliseconds
+Generating edited pin with following features: [unweightedSpectralEntropy, deltaRTLOESS]
+Loading predicted spectra
+Processing Tombline_44_22-248_uncalibrated.mgf
+RT regression using 5000 PSMs
+Edited pin file at C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248_edited.pin
+Processing Tombline_45_22-248_uncalibrated.mgf
+RT regression using 5000 PSMs
+Edited pin file at C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248_edited.pin
+Processing Tombline_46_22-248_uncalibrated.mgf
+RT regression using 5000 PSMs
+Process 'MSBooster' finished, exit code: 0
+Edited pin file at C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248_edited.pin
+Final parameters used for feature annotation:
+	fragger = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\fragger.params
+	pinPepXMLDirectory = GuineaPig_lung_2\Tombline_44_22-248.pin GuineaPig_lung_6\Tombline_46_22-248.pin GuineaPig_lung_5\Tombline_45_22-248.pin
+	mzmlDirectory = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248
+	outputDirectory = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2
+	editedPin = edited
+	renamePin = 1
+	spectraRTPredInput = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.tsv
+	detectPredInput = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\detect.tsv
+	spectraRTPredFile = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\spectraRT.predicted.bin
+	detectPredFile = null
+	deletePreds = true
+	predictionTimeLimit = 120
+	fasta = C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas
+	decoyPrefix = >rev_
+	cutAfter = KR
+	butNotAfter = P
+	digestMinLength = 7
+	digestMaxLength = 50
+	digestMinMass = 500.0
+	digestMaxMass = 5000.0
+	numThreads = 7
+	DiaNN = C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\diann\1.8.1\win\DiaNN.exe
+	spectraRTPredModel = DIA-NN
+	ppmTolerance = 20.0
+	lowResppmTolerance = 300.0
+	highResppmTolerance = 20.0
+	matchWithDaltons = false
+	DaTolerance = 0.05
+	useSpectra = true
+	useTopFragments = true
+	topFragments = 20
+	removeRankPeaks = true
+	useBasePeak = true
+	percentBasePeak = 1.0
+	useRT = true
+	RTregressionSize = 5000
+	uniformPriorPercentile = 10.0
+	RTescoreCutoff = 3.1622776E-4
+	RTbinMultiplier = 1
+	RTIQR = 50.0
+	noRTscores = false
+	bandwidth = 0.05
+	robustIters = 2
+	useDetect = false
+	useIM = null
+	IMregressionSize = 5000
+	IMescoreCutoff = 3.1622776E-4
+	IMbinMultiplier = 100
+	FragmentationType = HCD
+	NCE = 30
+	createPredFileOnly = false
+	ignoredFragmentIonTypes = 
+	onlyFragmentIonTypes = 
+	fragmentIonHierarchy = [immonium, y, b, a, y-NL, b-NL, a-NL, internal, internal-NL, unknown]
+	useMatchedIntensities = false
+	usePredIntensities = false
+	usePeakCounts = false
+	useIndividualSpectralSimilarities = false
+	useIntensitiesDifference = false
+	useIntensityDistributionSimilarity = false
+	features = unweightedSpectralEntropy,deltaRTLOESS
+	useMultipleCorrelatedFeatures = false
+Done in 19602 ms
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_46_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_46_22-248_percolator_decoy_psms.tsv Tombline_46_22-248_edited.pin
+Percolator version 3.05.0, Build Date May 18 2020 02:35:01
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_46_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_46_22-248_percolator_decoy_psms.tsv Tombline_46_22-248_edited.pin
+Started Mon Dec  5 15:38:50 2022
+Hyperparameters: selectionFdr=0.01, Cpos=0, Cneg=0, maxNiter=10
+Reading tab-delimited input from datafile Tombline_46_22-248_edited.pin
+Features:
+retentiontime rank abs_ppm isotope_errors log10_evalue hyperscore delta_hyperscore matched_ion_num complementary_ions ion_series weighted_average_abs_fragment_ppm peptide_length ntt nmc 15.994900M unweighted_spectral_entropy delta_RT_loess 
+Found 106020 PSMs
+Concatenated search input detected and --post-processing-tdc flag set. Applying target-decoy competition on Percolator scores.
+Train/test set contains 86035 positives and 19985 negatives, size ratio=4.30498 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Split 1:	Selected feature 16 as initial direction. Could separate 40810 training set positives with q<0.01 in that direction.
+Split 2:	Selected feature 16 as initial direction. Could separate 41005 training set positives with q<0.01 in that direction.
+Split 3:	Selected feature 16 as initial direction. Could separate 40628 training set positives with q<0.01 in that direction.
+Found 61167 test set positives with q<0.01 in initial direction
+Reading in data and feature calculation took 1.2 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.01, fdr=0.01
+Iteration 1:	Estimated 65332 PSMs with q<0.01
+Iteration 2:	Estimated 65579 PSMs with q<0.01
+Iteration 3:	Estimated 65666 PSMs with q<0.01
+Iteration 4:	Estimated 65717 PSMs with q<0.01
+Iteration 5:	Estimated 65719 PSMs with q<0.01
+Iteration 6:	Estimated 65719 PSMs with q<0.01
+Iteration 7:	Estimated 65715 PSMs with q<0.01
+Iteration 8:	Estimated 65713 PSMs with q<0.01
+Iteration 9:	Estimated 65721 PSMs with q<0.01
+Iteration 10:	Estimated 65728 PSMs with q<0.01
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1	 Split2	 Split3	FeatureName
+ 0.2151	 0.2395	 0.2392	retentiontime
+ 0.0000	 0.0000	 0.0000	rank
+-0.1727	-0.1918	-0.2005	abs_ppm
+-0.0103	-0.0241	-0.0134	isotope_errors
+-0.9671	-0.9572	-1.2227	log10_evalue
+-0.5310	-0.9450	-0.9497	hyperscore
+ 0.9025	 0.9065	 0.9764	delta_hyperscore
+ 1.3974	 2.0296	 1.9141	matched_ion_num
+-0.7742	-0.8822	-0.7987	complementary_ions
+-0.2336	-0.3609	-0.4031	ion_series
+-0.0204	-0.0242	-0.0681	weighted_average_abs_fragment_ppm
+ 0.1046	 0.0627	 0.1644	peptide_length
+ 0.0000	 0.0000	 0.0000	ntt
+-0.1046	-0.0713	-0.1324	nmc
+-0.0514	-0.0602	-0.0796	15.994900M
+ 1.3840	 1.3735	 1.5192	unweighted_spectral_entropy
+-1.5838	-1.0763	-1.0608	delta_RT_loess
+ 0.8518	 0.7787	 1.2756	m0
+Found 65654 test set PSMs with q<0.01.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 86035 target PSMs and 19985 decoy PSMs.
+Calculating q values.
+Final list yields 65656 target PSMs with q<0.01.
+Calculating posterior error probabilities (PEPs).
+Processing took 9.792 cpu seconds or 10 seconds wall clock time.
+Process 'Percolator' finished, exit code: 0
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_44_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_44_22-248_percolator_decoy_psms.tsv Tombline_44_22-248_edited.pin
+Percolator version 3.05.0, Build Date May 18 2020 02:35:01
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_44_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_44_22-248_percolator_decoy_psms.tsv Tombline_44_22-248_edited.pin
+Started Mon Dec  5 15:39:02 2022
+Hyperparameters: selectionFdr=0.01, Cpos=0, Cneg=0, maxNiter=10
+Reading tab-delimited input from datafile Tombline_44_22-248_edited.pin
+Features:
+retentiontime rank abs_ppm isotope_errors log10_evalue hyperscore delta_hyperscore matched_ion_num complementary_ions ion_series weighted_average_abs_fragment_ppm peptide_length ntt nmc 15.994900M unweighted_spectral_entropy delta_RT_loess 
+Found 101173 PSMs
+Concatenated search input detected and --post-processing-tdc flag set. Applying target-decoy competition on Percolator scores.
+Train/test set contains 81855 positives and 19318 negatives, size ratio=4.23724 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Split 1:	Selected feature 16 as initial direction. Could separate 38949 training set positives with q<0.01 in that direction.
+Split 2:	Selected feature 16 as initial direction. Could separate 38849 training set positives with q<0.01 in that direction.
+Split 3:	Selected feature 16 as initial direction. Could separate 39348 training set positives with q<0.01 in that direction.
+Found 58536 test set positives with q<0.01 in initial direction
+Reading in data and feature calculation took 1.026 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.01, fdr=0.01
+Iteration 1:	Estimated 61724 PSMs with q<0.01
+Iteration 2:	Estimated 61940 PSMs with q<0.01
+Iteration 3:	Estimated 62008 PSMs with q<0.01
+Iteration 4:	Estimated 62023 PSMs with q<0.01
+Iteration 5:	Estimated 62035 PSMs with q<0.01
+Iteration 6:	Estimated 62040 PSMs with q<0.01
+Iteration 7:	Estimated 62038 PSMs with q<0.01
+Iteration 8:	Estimated 62035 PSMs with q<0.01
+Iteration 9:	Estimated 62043 PSMs with q<0.01
+Iteration 10:	Estimated 62042 PSMs with q<0.01
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1	 Split2	 Split3	FeatureName
+ 0.1317	 0.1935	 0.2013	retentiontime
+ 0.0000	 0.0000	 0.0000	rank
+-0.1989	-0.2072	-0.2034	abs_ppm
+-0.0043	 0.0044	-0.0217	isotope_errors
+-0.8292	-0.9037	-0.7721	log10_evalue
+-0.5434	-0.5775	-0.4605	hyperscore
+ 0.7452	 0.7091	 0.7440	delta_hyperscore
+ 1.8670	 2.0119	 1.9870	matched_ion_num
+-0.8855	-0.9497	-0.9099	complementary_ions
+-0.4528	-0.4761	-0.3788	ion_series
+-0.0302	-0.0581	-0.0106	weighted_average_abs_fragment_ppm
+ 0.0929	 0.1102	 0.1029	peptide_length
+ 0.0000	 0.0000	 0.0000	ntt
+-0.1622	-0.1283	-0.1223	nmc
+ 0.0142	-0.0002	 0.0276	15.994900M
+ 1.2738	 1.3764	 1.3650	unweighted_spectral_entropy
+-1.5037	-1.2127	-1.2674	delta_RT_loess
+ 0.7494	 0.9589	 0.9968	m0
+Found 61963 test set PSMs with q<0.01.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 81855 target PSMs and 19318 decoy PSMs.
+Calculating q values.
+Final list yields 61966 target PSMs with q<0.01.
+Calculating posterior error probabilities (PEPs).
+Processing took 9.243 cpu seconds or 9 seconds wall clock time.
+Process 'Percolator' finished, exit code: 0
+Percolator [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_45_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_45_22-248_percolator_decoy_psms.tsv Tombline_45_22-248_edited.pin
+Percolator version 3.05.0, Build Date May 18 2020 02:35:01
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 7 --results-psms Tombline_45_22-248_percolator_target_psms.tsv --decoy-results-psms Tombline_45_22-248_percolator_decoy_psms.tsv Tombline_45_22-248_edited.pin
+Started Mon Dec  5 15:39:13 2022
+Hyperparameters: selectionFdr=0.01, Cpos=0, Cneg=0, maxNiter=10
+Reading tab-delimited input from datafile Tombline_45_22-248_edited.pin
+Features:
+retentiontime rank abs_ppm isotope_errors log10_evalue hyperscore delta_hyperscore matched_ion_num complementary_ions ion_series weighted_average_abs_fragment_ppm peptide_length ntt nmc 15.994900M unweighted_spectral_entropy delta_RT_loess 
+Found 102799 PSMs
+Concatenated search input detected and --post-processing-tdc flag set. Applying target-decoy competition on Percolator scores.
+Train/test set contains 84297 positives and 18502 negatives, size ratio=4.5561 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Split 1:	Selected feature 16 as initial direction. Could separate 40703 training set positives with q<0.01 in that direction.
+Split 2:	Selected feature 16 as initial direction. Could separate 40941 training set positives with q<0.01 in that direction.
+Split 3:	Selected feature 16 as initial direction. Could separate 40880 training set positives with q<0.01 in that direction.
+Found 61337 test set positives with q<0.01 in initial direction
+Reading in data and feature calculation took 1.043 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.01, fdr=0.01
+Iteration 1:	Estimated 64832 PSMs with q<0.01
+Iteration 2:	Estimated 65024 PSMs with q<0.01
+Iteration 3:	Estimated 65100 PSMs with q<0.01
+Iteration 4:	Estimated 65126 PSMs with q<0.01
+Iteration 5:	Estimated 65133 PSMs with q<0.01
+Iteration 6:	Estimated 65133 PSMs with q<0.01
+Iteration 7:	Estimated 65133 PSMs with q<0.01
+Iteration 8:	Estimated 65139 PSMs with q<0.01
+Iteration 9:	Estimated 65133 PSMs with q<0.01
+Iteration 10:	Estimated 65139 PSMs with q<0.01
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1	 Split2	 Split3	FeatureName
+ 0.2818	 0.2583	 0.2338	retentiontime
+ 0.0000	 0.0000	 0.0000	rank
+-0.1593	-0.1880	-0.1940	abs_ppm
+-0.0303	-0.0535	-0.0477	isotope_errors
+-0.6392	-0.7094	-0.8705	log10_evalue
+-0.7942	-0.6771	-0.5386	hyperscore
+ 0.8044	 0.7326	 0.7590	delta_hyperscore
+ 1.9649	 2.1059	 2.0826	matched_ion_num
+-0.7992	-0.8864	-0.8971	complementary_ions
+-0.3656	-0.3905	-0.5318	ion_series
+-0.0551	-0.0501	-0.0323	weighted_average_abs_fragment_ppm
+ 0.0938	 0.1282	 0.1376	peptide_length
+ 0.0000	 0.0000	 0.0000	ntt
+-0.0962	-0.0836	-0.1096	nmc
+ 0.0102	-0.0074	-0.0177	15.994900M
+ 1.4753	 1.4423	 1.4401	unweighted_spectral_entropy
+-1.1330	-1.0805	-1.1529	delta_RT_loess
+ 0.9331	 1.0800	 1.1854	m0
+Found 65144 test set PSMs with q<0.01.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 84297 target PSMs and 18502 decoy PSMs.
+Calculating q values.
+Final list yields 65144 target PSMs with q<0.01.
+Calculating posterior error probabilities (PEPs).
+Processing took 7.62 cpu seconds or 8 seconds wall clock time.
+Process 'Percolator' finished, exit code: 0
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_46_22-248.pin Tombline_46_22-248 Tombline_46_22-248_percolator_target_psms.tsv Tombline_46_22-248_percolator_decoy_psms.tsv interact-Tombline_46_22-248 DDA 0.5
+Process 'Percolator: Convert to pepxml' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248_percolator_target_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\Tombline_46_22-248_percolator_decoy_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_44_22-248.pin Tombline_44_22-248 Tombline_44_22-248_percolator_target_psms.tsv Tombline_44_22-248_percolator_decoy_psms.tsv interact-Tombline_44_22-248 DDA 0.5
+Process 'Percolator: Convert to pepxml' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248_percolator_target_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\Tombline_44_22-248_percolator_decoy_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+Percolator: Convert to pepxml [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML Tombline_45_22-248.pin Tombline_45_22-248 Tombline_45_22-248_percolator_target_psms.tsv Tombline_45_22-248_percolator_decoy_psms.tsv interact-Tombline_45_22-248 DDA 0.5
+Process 'Percolator: Convert to pepxml' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248_percolator_target_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+Percolator: Delete temp
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -cp C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\lib\fragpipe-18.0.jar com.github.chhh.utils.FileDelete C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\Tombline_45_22-248_percolator_decoy_psms.tsv
+Process 'Percolator: Delete temp' finished, exit code: 0
+ProteinProphet [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe proteinprophet --maxppmdiff 2000000 --output combined C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\filelist_proteinprophet.txt
+INFO[15:39:31] Executing ProteinProphet  v4.4.0             
+ProteinProphet (C++) by Insilicos LLC and LabKey Software, after the original Perl by A. Keller (TPP v6.0.0-rc15 Noctilucent, Build 202105101442-exported (Windows_NT-x86_64))
+ (no FPKM) (no groups) (using degen pep info)
+Reading in C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\interact-Tombline_44_22-248.pep.xml...
+...read in 0 1+, 37262 2+, 22483 3+, 2499 4+, 322 5+, 0 6+, 0 7+ spectra with min prob 0.05
+
+Reading in C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\interact-Tombline_45_22-248.pep.xml...
+...read in 0 1+, 39729 2+, 23314 3+, 2420 4+, 309 5+, 0 6+, 0 7+ spectra with min prob 0.05
+
+Reading in C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\interact-Tombline_46_22-248.pep.xml...
+...read in 0 1+, 39249 2+, 24092 3+, 2616 4+, 391 5+, 0 6+, 0 7+ spectra with min prob 0.05
+
+Initializing 61948 peptide weights: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Calculating protein lengths and molecular weights from database C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........1000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........2000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........3000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........4000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........5000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........6000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........7000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........8000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........9000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........10000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........11000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........12000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........13000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........14000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........15000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........16000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........17000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........18000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........19000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........20000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........21000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........22000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........23000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........24000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........25000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........26000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........27000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........28000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........29000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........30000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........31000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........32000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........33000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........34000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........35000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........36000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........37000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........38000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........39000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........40000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........41000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........42000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........43000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........44000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........45000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........46000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........47000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........48000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........49000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........50000
+.........:.........:.........:....  Total: 50340
+Computing degenerate peptides for 12293 proteins: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Computing probabilities for 14413 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 14413 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 14413 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 14413 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 14413 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Calculating sensitivity...and error tables...
+INFO: mu=2.52799e-05, db_size=56574639
+Computing MU for 14413 proteins: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+INFO[15:39:48] Done                                         
+Process 'ProteinProphet' finished, exit code: 0
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+INFO[15:39:48] Executing Database  v4.4.0                   
+INFO[15:39:48] Annotating the database                      
+INFO[15:39:50] Done                                         
+Process 'PhilosopherDbAnnotate' finished, exit code: 0
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+INFO[15:39:50] Executing Database  v4.4.0                   
+INFO[15:39:50] Annotating the database                      
+INFO[15:39:52] Done                                         
+Process 'PhilosopherDbAnnotate' finished, exit code: 0
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+INFO[15:39:52] Executing Database  v4.4.0                   
+INFO[15:39:52] Annotating the database                      
+INFO[15:39:54] Done                                         
+Process 'PhilosopherDbAnnotate' finished, exit code: 0
+PhilosopherDbAnnotate [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe database --annotate C:\Users\gregt\Desktop\Greg\reference-material\GuineaPig\2022-08-23-decoys-contam-UP000005447_GuineaPig_Proteome_w-iRT.txt.fas --prefix rev_
+INFO[15:39:55] Executing Database  v4.4.0                   
+INFO[15:39:55] Annotating the database                      
+INFO[15:39:56] Done                                         
+Process 'PhilosopherDbAnnotate' finished, exit code: 0
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razor
+INFO[15:39:57] Executing Filter  v4.4.0                     
+INFO[15:39:57] Processing peptide identification files      
+INFO[15:39:57] Parsing C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\interact-Tombline_44_22-248.pep.xml 
+INFO[15:40:01] 1+ Charge profile                             decoy=0 target=0
+INFO[15:40:01] 2+ Charge profile                             decoy=349 target=36913
+INFO[15:40:01] 3+ Charge profile                             decoy=207 target=22276
+INFO[15:40:01] 4+ Charge profile                             decoy=44 target=2455
+INFO[15:40:01] 5+ Charge profile                             decoy=13 target=309
+INFO[15:40:01] 6+ Charge profile                             decoy=0 target=0
+INFO[15:40:01] Database search results                       ions=40904 peptides=31971 psms=62566
+INFO[15:40:01] Converged to 0.98 % FDR with 61953 PSMs       decoy=613 threshold=0.500393 total=62566
+INFO[15:40:01] Converged to 1.00 % FDR with 31072 Peptides   decoy=313 threshold=0.694777 total=31385
+INFO[15:40:01] Converged to 1.00 % FDR with 40102 Ions       decoy=404 threshold=0.615919 total=40506
+INFO[15:40:03] Protein inference results                     decoy=1541 target=7540
+INFO[15:40:03] Converged to 1.00 % FDR with 4700 Proteins    decoy=47 threshold=0.9902 total=4747
+INFO[15:40:04] Applying sequential FDR estimation            ions=39933 peptides=31007 psms=61542
+INFO[15:40:04] Converged to 0.06 % FDR with 61500 PSMs       decoy=42 threshold=0.500393 total=61542
+INFO[15:40:04] Converged to 0.10 % FDR with 30974 Peptides   decoy=33 threshold=0.500565 total=31007
+INFO[15:40:04] Converged to 0.08 % FDR with 39900 Ions       decoy=33 threshold=0.500565 total=39933
+INFO[15:40:07] Post processing identifications              
+INFO[15:40:09] Assigning protein identifications to layers  
+INFO[15:40:10] Processing protein inference                 
+INFO[15:40:19] Synchronizing PSMs and proteins              
+INFO[15:40:19] Total report numbers after FDR filtering, and post-processing  ions=39899 peptides=30973 proteins=3952 psms=61499
+INFO[15:40:19] Saving                                       
+INFO[15:40:20] Done                                         
+Process 'PhilosopherFilter' finished, exit code: 0
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razorbin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin
+INFO[15:40:20] Executing Filter  v4.4.0                     
+INFO[15:40:20] Fetching razor assignment from: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin: 47320 razor groups imported. 
+INFO[15:40:20] Processing peptide identification files      
+INFO[15:40:20] Parsing C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\interact-Tombline_45_22-248.pep.xml 
+INFO[15:40:24] 1+ Charge profile                             decoy=0 target=0
+INFO[15:40:24] 2+ Charge profile                             decoy=384 target=39345
+INFO[15:40:24] 3+ Charge profile                             decoy=219 target=23095
+INFO[15:40:24] 4+ Charge profile                             decoy=30 target=2390
+INFO[15:40:24] 5+ Charge profile                             decoy=8 target=301
+INFO[15:40:24] 6+ Charge profile                             decoy=0 target=0
+INFO[15:40:24] Database search results                       ions=44592 peptides=35191 psms=65772
+INFO[15:40:24] Converged to 0.98 % FDR with 65131 PSMs       decoy=641 threshold=0.500016 total=65772
+INFO[15:40:24] Converged to 1.00 % FDR with 34223 Peptides   decoy=345 threshold=0.69147 total=34568
+INFO[15:40:24] Converged to 1.00 % FDR with 43709 Ions       decoy=441 threshold=0.62571 total=44150
+INFO[15:40:26] Protein inference results                     decoy=1541 target=7540
+INFO[15:40:26] Converged to 1.00 % FDR with 4700 Proteins    decoy=47 threshold=0.9902 total=4747
+INFO[15:40:28] Applying sequential FDR estimation            ions=43499 peptides=34106 psms=64626
+INFO[15:40:28] Converged to 0.05 % FDR with 64588 PSMs       decoy=38 threshold=0.500082 total=64626
+INFO[15:40:28] Converged to 0.09 % FDR with 34073 Peptides   decoy=33 threshold=0.500082 total=34106
+INFO[15:40:28] Converged to 0.07 % FDR with 43466 Ions       decoy=33 threshold=0.500082 total=43499
+INFO[15:40:30] Post processing identifications              
+INFO[15:40:32] Assigning protein identifications to layers  
+INFO[15:40:33] Processing protein inference                 
+INFO[15:40:42] Synchronizing PSMs and proteins              
+INFO[15:40:42] Total report numbers after FDR filtering, and post-processing  ions=43465 peptides=34072 proteins=4191 psms=64587
+INFO[15:40:42] Saving                                       
+INFO[15:40:43] Done                                         
+Process 'PhilosopherFilter' finished, exit code: 0
+PhilosopherFilter [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6 --protxml C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\combined.prot.xml --razorbin C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin
+INFO[15:40:43] Executing Filter  v4.4.0                     
+INFO[15:40:43] Fetching razor assignment from: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\.meta\razor.bin: 47320 razor groups imported. 
+INFO[15:40:43] Processing peptide identification files      
+INFO[15:40:43] Parsing C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\interact-Tombline_46_22-248.pep.xml 
+INFO[15:40:47] 1+ Charge profile                             decoy=0 target=0
+INFO[15:40:47] 2+ Charge profile                             decoy=390 target=38859
+INFO[15:40:47] 3+ Charge profile                             decoy=223 target=23869
+INFO[15:40:47] 4+ Charge profile                             decoy=40 target=2576
+INFO[15:40:47] 5+ Charge profile                             decoy=16 target=375
+INFO[15:40:47] 6+ Charge profile                             decoy=0 target=0
+INFO[15:40:47] Database search results                       ions=43713 peptides=34542 psms=66348
+INFO[15:40:47] Converged to 1.00 % FDR with 65671 PSMs       decoy=662 threshold=0.504278 total=66333
+INFO[15:40:47] Converged to 1.00 % FDR with 33442 Peptides   decoy=337 threshold=0.707996 total=33779
+INFO[15:40:47] Converged to 1.00 % FDR with 42738 Ions       decoy=431 threshold=0.634793 total=43169
+INFO[15:40:49] Protein inference results                     decoy=1541 target=7540
+INFO[15:40:50] Converged to 1.00 % FDR with 4700 Proteins    decoy=47 threshold=0.9902 total=4747
+INFO[15:40:51] Applying sequential FDR estimation            ions=42525 peptides=33362 psms=65094
+INFO[15:40:51] Converged to 0.05 % FDR with 65057 PSMs       decoy=37 threshold=0.504278 total=65094
+INFO[15:40:51] Converged to 0.09 % FDR with 33331 Peptides   decoy=31 threshold=0.506596 total=33362
+INFO[15:40:51] Converged to 0.07 % FDR with 42494 Ions       decoy=31 threshold=0.506596 total=42525
+INFO[15:40:53] Post processing identifications              
+INFO[15:40:56] Assigning protein identifications to layers  
+INFO[15:40:56] Processing protein inference                 
+INFO[15:41:06] Synchronizing PSMs and proteins              
+INFO[15:41:06] Total report numbers after FDR filtering, and post-processing  ions=42494 peptides=33331 proteins=4123 psms=65057
+INFO[15:41:06] Saving                                       
+INFO[15:41:07] Done                                         
+Process 'PhilosopherFilter' finished, exit code: 0
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+INFO[15:41:07] Executing Report  v4.4.0                     
+INFO[15:41:07] Creating reports                             
+INFO[15:41:09] Done                                         
+Process 'PhilosopherReport' finished, exit code: 0
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+INFO[15:41:09] Executing Report  v4.4.0                     
+INFO[15:41:09] Creating reports                             
+INFO[15:41:11] Done                                         
+Process 'PhilosopherReport' finished, exit code: 0
+PhilosopherReport [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe report
+INFO[15:41:12] Executing Report  v4.4.0                     
+INFO[15:41:12] Creating reports                             
+INFO[15:41:14] Done                                         
+Process 'PhilosopherReport' finished, exit code: 0
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:41:14] Executing Workspace  v4.4.0                  
+INFO[15:41:14] Removing workspace                           
+INFO[15:41:14] Done                                         
+Process 'WorkspaceClean' finished, exit code: 0
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:41:14] Executing Workspace  v4.4.0                  
+INFO[15:41:14] Removing workspace                           
+INFO[15:41:14] Done                                         
+Process 'WorkspaceClean' finished, exit code: 0
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:41:14] Executing Workspace  v4.4.0                  
+INFO[15:41:14] Removing workspace                           
+INFO[15:41:14] Done                                         
+Process 'WorkspaceClean' finished, exit code: 0
+WorkspaceClean [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\philosopher_v4.4.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+INFO[15:41:15] Executing Workspace  v4.4.0                  
+INFO[15:41:15] Removing workspace                           
+INFO[15:41:15] Done                                         
+Process 'WorkspaceClean' finished, exit code: 0
+IonQuant [Work dir: C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger]
+C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\jre\bin\java.exe -Xmx43G -Dlibs.bruker.dir="C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\ext\bruker" -Dlibs.thermo.dir="C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\MSFragger-3.5\ext\thermo" -cp "C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\jfreechart-1.5.3.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\batmass-io-1.25.5.jar;C:\Users\gregt\Desktop\VarSoftware\Fragger-related\Fragpipev18\FragPipe-jre-18.0\fragpipe\tools\IonQuant-1.8.0.jar" ionquant.IonQuant --threads 7 --ionmobility 0 --minexps 1 --mbr 1 --maxlfq 1 --requantify 1 --mztol 10 --imtol 0.05 --rttol 0.4 --mbrmincorr 0 --mbrrttol 1 --mbrimtol 0.05 --mbrtoprun 100000 --ionfdr 0.01 --proteinfdr 1 --peptidefdr 1 --normalization 1 --minisotopes 2 --minscans 3 --writeindex 0 --tp 0 --minfreq 0 --minions 2 --locprob 0.75 --uniqueness 0 --multidir . --filelist C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\filelist_ionquant.txt
+IonQuant version IonQuant-1.8.0
+Batmass-IO version 1.25.5
+timsdata library version timsdata-2-8-7-1
+(c) University of Michigan
+System OS: Windows 10, Architecture: AMD64
+Java Info: 11.0.9.1, OpenJDK 64-Bit Server VM, AdoptOpenJDK
+JVM started with 43 GB memory
+2022-12-05 15:41:15 [INFO] - Collecting variable modifications from all psm.tsv files...
+2022-12-05 15:41:15 [INFO] - Reading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\psm.tsv...
+2022-12-05 15:41:15 [INFO] - Reading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\psm.tsv...
+2022-12-05 15:41:15 [INFO] - Reading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\psm.tsv...
+2022-12-05 15:41:16 [INFO] - Parameters:
+2022-12-05 15:41:16 [INFO] - threads = 7
+2022-12-05 15:41:16 [INFO] - mztol = 10.0
+2022-12-05 15:41:16 [INFO] - rttol = 0.4
+2022-12-05 15:41:16 [INFO] - imtol = 0.05
+2022-12-05 15:41:16 [INFO] - seedmz = 0
+2022-12-05 15:41:16 [INFO] - minisotopes = 2
+2022-12-05 15:41:16 [INFO] - minscans = 3
+2022-12-05 15:41:16 [INFO] - psm = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\psm.tsv
+2022-12-05 15:41:16 [INFO] - psm = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\psm.tsv
+2022-12-05 15:41:16 [INFO] - psm = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\psm.tsv
+2022-12-05 15:41:16 [INFO] - multidir = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\.\
+2022-12-05 15:41:16 [INFO] - excludemods = 
+2022-12-05 15:41:16 [INFO] - minions = 2
+2022-12-05 15:41:16 [INFO] - maxlfq = 1
+2022-12-05 15:41:16 [INFO] - ibaq = 0
+2022-12-05 15:41:16 [INFO] - normalization = 1
+2022-12-05 15:41:16 [INFO] - minexps = 1
+2022-12-05 15:41:16 [INFO] - minfreq = 0.0
+2022-12-05 15:41:16 [INFO] - tp = 0
+2022-12-05 15:41:16 [INFO] - mbr = 1
+2022-12-05 15:41:16 [INFO] - mbrrttol = 1.0
+2022-12-05 15:41:16 [INFO] - mbrimtol = 0.05
+2022-12-05 15:41:16 [INFO] - mbrtoprun = 100000
+2022-12-05 15:41:16 [INFO] - mbrmincorr = 0.0
+2022-12-05 15:41:16 [INFO] - ionmobility = 0
+2022-12-05 15:41:16 [INFO] - ionfdr = 0.01
+2022-12-05 15:41:16 [INFO] - peptidefdr = 1.0
+2022-12-05 15:41:16 [INFO] - proteinfdr = 1.0
+2022-12-05 15:41:16 [INFO] - light = 
+2022-12-05 15:41:16 [INFO] - medium = 
+2022-12-05 15:41:16 [INFO] - heavy = 
+2022-12-05 15:41:16 [INFO] - requantify = 0
+2022-12-05 15:41:16 [INFO] - writeindex = 0
+2022-12-05 15:41:16 [INFO] - locprob = 0.75
+2022-12-05 15:41:16 [INFO] - uniqueness = 0
+2022-12-05 15:41:16 [INFO] - filelist = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\filelist_ionquant.txt
+2022-12-05 15:41:16 [INFO] - specdir = C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248
+2022-12-05 15:41:16 [INFO] - Checking C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw...
+2022-12-05 15:41:18 [INFO] - Checking C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw...
+2022-12-05 15:41:19 [INFO] - Checking C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw...
+2022-12-05 15:41:21 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.raw...
+2022-12-05 15:41:38 [INFO] - Building index...
+2022-12-05 15:41:38 [INFO] - Writing index to C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.quantindex
+2022-12-05 15:41:38 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_2\psm.tsv....
+2022-12-05 15:41:38 [INFO] - Use each MS2 scan's calculated MZ in peak tracing.
+2022-12-05 15:41:38 [INFO] - Quantifying...
+2022-12-05 15:41:39 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.raw...
+2022-12-05 15:41:57 [INFO] - Building index...
+2022-12-05 15:41:57 [INFO] - Writing index to C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.quantindex
+2022-12-05 15:41:57 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_5\psm.tsv....
+2022-12-05 15:41:57 [INFO] - Use each MS2 scan's calculated MZ in peak tracing.
+2022-12-05 15:41:57 [INFO] - Quantifying...
+2022-12-05 15:41:57 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.raw...
+2022-12-05 15:42:14 [INFO] - Building index...
+2022-12-05 15:42:14 [INFO] - Writing index to C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.quantindex
+2022-12-05 15:42:14 [INFO] - Loading C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\UH2-3_lung-data\GuineaPig_lung_MSFragger\GuineaPig_lung_6\psm.tsv....
+2022-12-05 15:42:15 [INFO] - Use each MS2 scan's calculated MZ in peak tracing.
+2022-12-05 15:42:15 [INFO] - Quantifying...
+2022-12-05 15:42:15 [INFO] - Updating Philosopher's tables...
+2022-12-05 15:42:23 [INFO] - Matching-between-runs: Tombline_44_22-248...
+2022-12-05 15:42:23 [INFO] - Calculating correlations between all other runs...
+2022-12-05 15:42:23 [INFO] - Reading index from C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_44_22-248.quantindex
+2022-12-05 15:42:23 [INFO] - Transferring Tombline_45_22-248...
+2022-12-05 15:42:24 [INFO] - Transferring Tombline_46_22-248...
+2022-12-05 15:42:25 [INFO] - Training LDA models for all matched features.
+2022-12-05 15:42:25 [INFO] - Standardized coefficients:
+2022-12-05 15:42:25 [INFO] - log10(intensity): 0.3142732250339777
+2022-12-05 15:42:25 [INFO] - log10(KL): 3.0571814572930863E-4
+2022-12-05 15:42:25 [INFO] - abs(ppm): -0.9218503358633915
+2022-12-05 15:42:25 [INFO] - RT diff: -0.25345862898894117
+2022-12-05 15:42:25 [INFO] - Fitting a mixture model...
+2022-12-05 15:42:29 [INFO] - Matching-between-runs: Tombline_45_22-248...
+2022-12-05 15:42:30 [INFO] - Calculating correlations between all other runs...
+2022-12-05 15:42:30 [INFO] - Reading index from C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_45_22-248.quantindex
+2022-12-05 15:42:30 [INFO] - Transferring Tombline_44_22-248...
+2022-12-05 15:42:30 [INFO] - Transferring Tombline_46_22-248...
+2022-12-05 15:42:31 [INFO] - Training LDA models for all matched features.
+2022-12-05 15:42:31 [INFO] - Standardized coefficients:
+2022-12-05 15:42:31 [INFO] - log10(intensity): 0.25682660339853264
+2022-12-05 15:42:31 [INFO] - log10(KL): -0.026205843673172594
+2022-12-05 15:42:31 [INFO] - abs(ppm): -0.9424618504446215
+2022-12-05 15:42:31 [INFO] - RT diff: -0.21781682665378946
+2022-12-05 15:42:31 [INFO] - Fitting a mixture model...
+2022-12-05 15:42:32 [INFO] - Matching-between-runs: Tombline_46_22-248...
+2022-12-05 15:42:32 [INFO] - Calculating correlations between all other runs...
+2022-12-05 15:42:32 [INFO] - Reading index from C:\Users\gregt\Desktop\Greg\Gorbunova_UH2-related\11.07.22_Protein-extracts-for-MS\Tombline_22-248\Tombline_22-248\Tombline_46_22-248.quantindex
+2022-12-05 15:42:32 [INFO] - Transferring Tombline_44_22-248...
+2022-12-05 15:42:32 [INFO] - Transferring Tombline_45_22-248...
+2022-12-05 15:42:33 [INFO] - Training LDA models for all matched features.
+2022-12-05 15:42:33 [INFO] - Standardized coefficients:
+2022-12-05 15:42:33 [INFO] - log10(intensity): 0.31200864839857917
+2022-12-05 15:42:33 [INFO] - log10(KL): -0.01995225415275561
+2022-12-05 15:42:33 [INFO] - abs(ppm): -0.9388021262772234
+2022-12-05 15:42:33 [INFO] - RT diff: -0.17130055673478709
+2022-12-05 15:42:33 [INFO] - Fitting a mixture model...
+2022-12-05 15:42:33 [INFO] - Estimating match-between-runs FDR...
+2022-12-05 15:42:34 [INFO] - With ion FDR 0.010000, ion probability threshold is 0.987500
+2022-12-05 15:42:34 [INFO] - With peptide FDR 1.000000, peptide probability threshold is -0.000100
+2022-12-05 15:42:34 [INFO] - With protein FDR 1.000000, protein probability threshold is -0.000100
+2022-12-05 15:42:34 [INFO] - Updating Philosopher's tables...
+2022-12-05 15:42:37 [INFO] - Combining experiments and estimating protein intensity...
+2022-12-05 15:42:41 [INFO] - Done!
+Process 'IonQuant' finished, exit code: 0
+
+Please cite:
+(Any searches) MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics. Nat Methods 14:513 (2017)
+(Any searches) Fast deisotoping algorithm and its implementation in the MSFragger search engine. J. Proteome Res. 20:498 (2021)
+(Open search) Identification of modified peptides using localization-aware open search. Nat Commun. 11:4065 (2020)
+(Open search) Crystal-C: A Computational Tool for Refinement of Open Search Results. J. Proteome Res. 19.6:2511 (2020)
+(Open search) PTM-Shepherd: analysis and summarization of post-translational and chemical modifications from open search results. Mol Cell Proteomics 20:100018 (2020)
+(Glyco/labile search) Fast and comprehensive N- and O-glycoproteomics analysis with MSFragger-Glyco. Nat Methods 17:1125 (2020)
+(timsTOF PASEF) Fast quantitative analysis of timsTOF PASEF data with MSFragger and IonQuant. Mol Cell Proteomics 19:1575 (2020)
+(PSM validation with Percolator) Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods 4:923 (2007)
+(Label-free quantification/SILAC) IonQuant Enables Accurate and Sensitive Label-Free Quantification With FDR-Controlled Match-Between-Runs. Mol Cell Proteomics 20:100077 (2021)
+(PeptideProphet/ProteinProphet/PTMProphet/Filtering) Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods 17:869 (2020)
+(TMT-Integrator) Quantitative proteomic landscape of metaplastic breast carcinoma pathological subtypes and their relationship to triple-negative tumors. Nat Commun. 11:1723 (2020)
+(DIA-Umpire) DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics. Nat Methods 12:258 (2015)
+(DIA-NN) High sensitivity dia-PASEF proteomics with DIA-NN and FragPipe. bioRxiv doi:10.1101/2021.03.08.434385 (2021)
+
+=============================================================ALL JOBS DONE IN 10.3 MINUTES=============================================================
