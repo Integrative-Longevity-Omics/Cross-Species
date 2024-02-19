@@ -1,0 +1,241 @@
+diann.exe --f "F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-17_23-251.raw" --f "F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-18_23-251.raw" --f "F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-19_23-251.raw" --f "F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-21_23-251.raw" --lib "" --threads 8 --verbose 1 --out "F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.tsv" --qvalue 0.01 --matrices  --out-lib "C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.tsv" --gen-spec-lib --predictor --prosit --fasta "C:\Users\gregt\Desktop\Greg\reference-material\NMR\GCF_000247695.1_HetGla_female_1.0_protein.fasta" --fasta "C:\Users\gregt\Desktop\Greg\reference-material\Yuyang_Trinity-related\Proteomics_reference\Proteomics_reference\decoy.cdhit.NMR.merge.fasta.transdecoder.pep" --fasta-search --min-fr-mz 200 --max-fr-mz 1800 --met-excision --cut K*,R* --missed-cleavages 1 --min-pep-len 7 --max-pep-len 30 --min-pr-mz 300 --max-pr-mz 1800 --min-pr-charge 1 --max-pr-charge 4 --unimod4 --var-mods 1 --var-mod UniMod:35,15.994915,M --mass-acc 20 --mass-acc-ms1 6 --reanalyse --smart-profiling --pg-level 1 
+DIA-NN 1.8 (Data-Independent Acquisition by Neural Networks)
+Compiled on Jun 28 2021 14:55:31
+Current date and time: Tue Nov 14 00:29:31 2023
+CPU: GenuineIntel 11th Gen Intel(R) Core(TM) i9-11980HK @ 2.60GHz
+SIMD instructions: AVX AVX2 AVX512CD AVX512F FMA SSE4.1 SSE4.2 
+Logical CPU cores: 16
+Thread number set to 8
+Output will be filtered at 0.01 FDR
+Precursor/protein x samples expression level matrices will be saved along with the main report
+A spectral library will be generated
+Deep learning will be used to generate a new in silico spectral library from peptides provided
+Library-free search enabled
+Min fragment m/z set to 200
+Max fragment m/z set to 1800
+N-terminal methionine excision enabled
+In silico digest will involve cuts at K*,R*
+Maximum number of missed cleavages set to 1
+Min peptide length set to 7
+Max peptide length set to 30
+Min precursor m/z set to 300
+Max precursor m/z set to 1800
+Min precursor charge set to 1
+Max precursor charge set to 4
+Cysteine carbamidomethylation enabled as a fixed modification
+Maximum number of variable modifications set to 1
+Modification UniMod:35 with mass delta 15.9949 at M will be considered as variable
+A spectral library will be created from the DIA runs and used to reanalyse them; .quant files will only be saved to disk during the first step
+When generating a spectral library, in silico predicted spectra will be retained if deemed more reliable than experimental ones
+Implicit protein grouping: protein names; this determines which peptides are considered 'proteotypic' and thus affects protein FDR calculation
+Mass accuracy will be fixed to 2e-05 (MS2) and 6e-06 (MS1)
+
+4 files will be processed
+[0:00] Loading FASTA C:\Users\gregt\Desktop\Greg\reference-material\NMR\GCF_000247695.1_HetGla_female_1.0_protein.fasta
+[0:05] Loading FASTA C:\Users\gregt\Desktop\Greg\reference-material\Yuyang_Trinity-related\Proteomics_reference\Proteomics_reference\decoy.cdhit.NMR.merge.fasta.transdecoder.pep
+[0:27] Processing FASTA
+[0:54] Assembling elution groups
+[1:36] 18123872 precursors generated
+[1:53] Prosit input saved to C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.prosit.csv
+[1:56] Protein names missing for some isoforms
+[1:56] Gene names missing for some isoforms
+[1:56] Library contains 94828 proteins, and 94828 genes
+[1:59] Encoding peptides for spectra and RTs prediction
+[2:31] Predicting spectra and IMs
+[418:25] Predicting RTs
+[491:35] Decoding predicted spectra and IMs
+[492:46] Decoding RTs
+[493:09] Saving the library to C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.predicted.speclib
+[493:35] Initialising library
+
+[493:41] First pass: generating a spectral library from DIA data
+[493:41] File #1/4
+[493:41] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-17_23-251.raw
+[497:06] 11255228 library precursors are potentially detectable
+[497:07] Processing...
+[506:44] RT window set to 1.35392
+[506:44] Peak width: 3.484
+[506:44] Scan window radius set to 7
+[506:45] Recommended MS1 mass accuracy setting: 6.02104 ppm
+[535:37] Removing low confidence identifications
+[535:38] Removing interfering precursors
+[535:43] Training neural networks: 103182 targets, 69139 decoys
+[535:53] Number of IDs at 0.01 FDR: 33884
+[535:54] Calculating protein q-values
+[535:55] Number of proteins identified at 1% FDR: 492 (precursor-level), 314 (protein-level) (inference performed using proteotypic peptides only)
+[535:55] Quantification
+[535:58] Quantification information saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-17_23-251.raw.quant.
+
+[536:12] File #2/4
+[536:12] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-18_23-251.raw
+[539:36] 11255228 library precursors are potentially detectable
+[539:36] Processing...
+[555:11] RT window set to 1.26578
+[555:12] Recommended MS1 mass accuracy setting: 5.38383 ppm
+[584:38] Removing low confidence identifications
+[584:39] Removing interfering precursors
+[584:42] Training neural networks: 59339 targets, 38834 decoys
+[584:49] Number of IDs at 0.01 FDR: 18680
+[584:49] Calculating protein q-values
+[584:50] Number of proteins identified at 1% FDR: 294 (precursor-level), 223 (protein-level) (inference performed using proteotypic peptides only)
+[584:51] Quantification
+[584:53] Quantification information saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-18_23-251.raw.quant.
+
+[585:05] File #3/4
+[585:05] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-19_23-251.raw
+[588:31] 11255228 library precursors are potentially detectable
+[588:32] Processing...
+[601:44] RT window set to 1.30968
+[601:45] Recommended MS1 mass accuracy setting: 5.71575 ppm
+[631:57] Removing low confidence identifications
+[631:57] Removing interfering precursors
+[632:01] Training neural networks: 75266 targets, 48784 decoys
+[632:09] Number of IDs at 0.01 FDR: 23167
+[632:09] Calculating protein q-values
+[632:10] Number of proteins identified at 1% FDR: 360 (precursor-level), 251 (protein-level) (inference performed using proteotypic peptides only)
+[632:10] Quantification
+[632:13] Quantification information saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-19_23-251.raw.quant.
+
+[632:25] File #4/4
+[632:25] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-21_23-251.raw
+[635:45] 11255228 library precursors are potentially detectable
+[635:46] Processing...
+[648:54] RT window set to 1.32955
+[648:55] Recommended MS1 mass accuracy setting: 5.43967 ppm
+[678:55] Removing low confidence identifications
+[678:56] Removing interfering precursors
+[678:59] Training neural networks: 75179 targets, 49226 decoys
+[679:08] Number of IDs at 0.01 FDR: 24970
+[679:08] Calculating protein q-values
+[679:09] Number of proteins identified at 1% FDR: 383 (precursor-level), 228 (protein-level) (inference performed using proteotypic peptides only)
+[679:10] Quantification
+[679:12] Quantification information saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-21_23-251.raw.quant.
+
+[679:24] Cross-run analysis
+[679:24] Reading quantification information: 4 files
+[679:24] Quantifying peptides
+[679:26] Assembling protein groups
+[679:42] Quantifying proteins
+[679:43] Calculating q-values for protein and gene groups
+[679:45] Calculating global q-values for protein and gene groups
+[679:45] Writing report
+[679:50] Report saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.tsv.
+[679:50] Saving precursor levels matrix
+[679:50] Precursor levels matrix (1% precursor and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.pr_matrix.tsv.
+[679:50] Saving protein group levels matrix
+[679:50] Protein group levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.pg_matrix.tsv.
+[679:50] Saving gene group levels matrix
+[679:50] Gene groups levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.gg_matrix.tsv.
+[679:50] Saving unique genes levels matrix
+[679:51] Unique genes levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.unique_genes_matrix.tsv.
+[679:51] Stats report saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR-first-pass.stats.tsv
+[679:51] Generating spectral library:
+[679:51] Reading quantification information: 4 files
+[679:51] Assembling protein groups
+[680:07] 38514 precursors passing the FDR threshold are to be extracted
+[680:07] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-17_23-251.raw
+[683:31] 11255228 library precursors are potentially detectable
+[683:33] 18228 spectra added to the library
+[683:41] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-18_23-251.raw
+[686:59] 11255228 library precursors are potentially detectable
+[687:00] 2656 spectra added to the library
+[687:08] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-19_23-251.raw
+[690:30] 11255228 library precursors are potentially detectable
+[690:31] 3378 spectra added to the library
+[690:39] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-21_23-251.raw
+[693:54] 11255228 library precursors are potentially detectable
+[693:56] 3814 spectra added to the library
+[694:03] Saving spectral library to C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.tsv
+[694:07] 38514 precursors saved
+[694:07] Loading the generated library and saving it in the .speclib format
+[694:07] Loading spectral library C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.tsv
+[694:09] Spectral library loaded: 25249 protein isoforms, 8811 protein groups and 38514 precursors in 32281 elution groups.
+[694:09] Loading protein annotations from FASTA C:\Users\gregt\Desktop\Greg\reference-material\NMR\GCF_000247695.1_HetGla_female_1.0_protein.fasta
+[694:10] Loading protein annotations from FASTA C:\Users\gregt\Desktop\Greg\reference-material\Yuyang_Trinity-related\Proteomics_reference\Proteomics_reference\decoy.cdhit.NMR.merge.fasta.transdecoder.pep
+[694:13] Protein names missing for some isoforms
+[694:13] Gene names missing for some isoforms
+[694:13] Library contains 11740 proteins, and 11740 genes
+[694:13] Saving the library to C:\Users\gregt\Desktop\Tombline_23-211_MagNet\DIANN_ECV1-2_MUS\DIANN_ECV1-2_MUS_output\report-lib.tsv.speclib
+
+[694:21] Second pass: using the newly created spectral library to reanalyse the data
+[694:21] File #1/4
+[694:21] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-17_23-251.raw
+[697:20] 38514 library precursors are potentially detectable
+[697:20] Processing...
+[697:22] RT window set to 0.460862
+[697:22] Recommended MS1 mass accuracy setting: 6.0244 ppm
+[697:25] Removing low confidence identifications
+[697:25] Removing interfering precursors
+[697:26] Training neural networks: 38224 targets, 34944 decoys
+[697:30] Number of IDs at 0.01 FDR: 36157
+[697:31] Calculating protein q-values
+[697:31] Number of proteins identified at 1% FDR: 493 (precursor-level), 384 (protein-level) (inference performed using proteotypic peptides only)
+[697:31] Quantification
+
+[697:41] File #2/4
+[697:41] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-18_23-251.raw
+[705:55] 38514 library precursors are potentially detectable
+[705:55] Processing...
+[705:58] RT window set to 0.466016
+[705:58] Recommended MS1 mass accuracy setting: 5.90658 ppm
+[706:01] Removing low confidence identifications
+[706:01] Removing interfering precursors
+[706:02] Training neural networks: 37696 targets, 34620 decoys
+[706:06] Number of IDs at 0.01 FDR: 28129
+[706:06] Calculating protein q-values
+[706:06] Number of proteins identified at 1% FDR: 420 (precursor-level), 336 (protein-level) (inference performed using proteotypic peptides only)
+[706:06] Quantification
+
+[706:15] File #3/4
+[706:15] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-19_23-251.raw
+[709:09] 38514 library precursors are potentially detectable
+[709:09] Processing...
+[709:11] RT window set to 0.462392
+[709:11] Recommended MS1 mass accuracy setting: 5.16777 ppm
+[709:14] Removing low confidence identifications
+[709:14] Removing interfering precursors
+[709:15] Training neural networks: 38057 targets, 35000 decoys
+[709:20] Number of IDs at 0.01 FDR: 32576
+[709:20] Calculating protein q-values
+[709:20] Number of proteins identified at 1% FDR: 464 (precursor-level), 334 (protein-level) (inference performed using proteotypic peptides only)
+[709:20] Quantification
+
+[709:30] File #4/4
+[709:30] Loading run F:\Tombline_23-211_MagNet\Re-runs-Astral\Tombline_ECV-21_23-251.raw
+[712:25] 38514 library precursors are potentially detectable
+[712:25] Processing...
+[712:26] RT window set to 0.460545
+[712:26] Recommended MS1 mass accuracy setting: 5.56438 ppm
+[712:29] Removing low confidence identifications
+[712:29] Removing interfering precursors
+[712:30] Training neural networks: 38031 targets, 34589 decoys
+[712:35] Number of IDs at 0.01 FDR: 33112
+[712:35] Calculating protein q-values
+[712:35] Number of proteins identified at 1% FDR: 474 (precursor-level), 359 (protein-level) (inference performed using proteotypic peptides only)
+[712:35] Quantification
+
+[712:45] Cross-run analysis
+[712:45] Reading quantification information: 4 files
+[712:45] Quantifying peptides
+[712:47] Quantifying proteins
+[712:49] Calculating q-values for protein and gene groups
+[712:50] Calculating global q-values for protein and gene groups
+[712:50] Writing report
+[712:56] Report saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.tsv.
+[712:56] Saving precursor levels matrix
+[712:57] Precursor levels matrix (1% precursor and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.pr_matrix.tsv.
+[712:57] Saving protein group levels matrix
+[712:57] Protein group levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.pg_matrix.tsv.
+[712:57] Saving gene group levels matrix
+[712:57] Gene groups levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.gg_matrix.tsv.
+[712:57] Saving unique genes levels matrix
+[712:57] Unique genes levels matrix (1% precursor FDR and protein group FDR) saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.unique_genes_matrix.tsv.
+[712:57] Stats report saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.stats.tsv
+[712:57] Log saved to F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.log.txt
+Finished
+
+
+DIA-NN exited
+DIA-NN-plotter.exe "F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.stats.tsv" "F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.tsv" "F:\Tombline_23-211_MagNet\Re-runs-Astral\DIANN_ECV_17-21_NMR\DIANN_ECV_17-21_NMR.pdf"
+PDF report will be generated in the background
+
